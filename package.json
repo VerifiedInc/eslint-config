@@ -1,6 +1,6 @@
 {
   "name": "@unumid/eslint-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "UnumID shared ESLint config",
   "main": "index.js",
   "scripts": {

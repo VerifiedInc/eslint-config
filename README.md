@@ -24,10 +24,10 @@ Or by adding to `package.json` directly
 
 ### Peer Dependencies
 
-The `eslint` package itself and required ESLint plugins must be installed as peer dependencies.
+The `eslint` package itself and required ESLint plugins are peer dependencies, and must be installed separately in projects that use this one.
 
 ```shell
-npm i --save-peer eslint eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise
+npm i -D eslint eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise
 ```
 
 ## Usage

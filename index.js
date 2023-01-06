@@ -16,11 +16,12 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
       typescript: {
-        alwaystTryTypes: true,
+        alwaysTryTypes: true,
       },
     },
   },
   rules: {
+    // don't require file extensions when importing js/ts files
     'import/extensions': [
       'error',
       'ignorePackages',

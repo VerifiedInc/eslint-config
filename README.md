@@ -17,7 +17,7 @@ Or by adding to `package.json` directly
   ...
   "devDependencies": {
     ...
-    "@unumid/eslint-config": "git+ssh://git@github.com:UnumID/eslint-config.git#{version}
+    "@unumid/eslint-config": "git+ssh://git@github.com:UnumID/eslint-config.git#{version}"
   }
 }
 ```

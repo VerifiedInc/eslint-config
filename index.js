@@ -49,6 +49,9 @@ module.exports = {
     // same for `no-use-before-define` + `@typescript-eslint/no-use-before-define`
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
+    // turning this rule off because prettier doesn't support it
+    // and it's not really that important
+    'space-before-function-paren': 'off',
   },
   env: {
     'jest/globals': true,

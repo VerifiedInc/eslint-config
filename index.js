@@ -52,6 +52,8 @@ module.exports = {
     // turning this rule off because prettier doesn't support it
     // and it's not really that important
     'space-before-function-paren': 'off',
+    // disabling because in Prettier v3 trailing-commas are now the default
+    "comma-dangle": "off",
   },
   env: {
     'jest/globals': true,
